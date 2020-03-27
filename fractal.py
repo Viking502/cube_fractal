@@ -146,4 +146,5 @@ f_size = 2
 
 fractal = Fractal(1, f_size, np.multiply([1, 1, 1], -(3**f_size)*3/2))
 
-main()
+if __name__ == '__main__':
+    main()
